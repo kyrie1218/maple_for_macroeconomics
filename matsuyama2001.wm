@@ -1,4 +1,5 @@
 restart;
+# 1. 家庭最优化
 # 设置Bellman方程
 bellman := V(K[t-1])=((r[t]*K[t-1]+w[t]*L-K[t])^(1-1/gamma)-1)/(1-1/gamma)+beta*V(K[t]);
 # 求K[t]的一阶条件
